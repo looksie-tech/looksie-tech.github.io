@@ -188,6 +188,7 @@ img {
 
   font-family: Almarai-ExtraBold;
 }
+
 .bigapp {
   height: 77px;
   border-radius: 11px;
@@ -230,6 +231,274 @@ footer h4 {
 }
 .mb1 {
   margin-bottom: 1em;
+}
+ul.arabic-list {
+  list-style-type: none;
+  direction: rtl;
+}
+
+.arabic-list li {
+  direction: rtl;
+}
+
+.arabic-list li:before {
+  padding: 5px;
+}
+
+.arabic-list {
+  counter-reset: counter -28;
+}
+
+.arabic-list li:nth-child(28n + 1):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 2):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 3):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 4):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 5):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 6):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 7):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 8):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 9):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 10):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 11):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 12):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 13):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 14):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 15):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 16):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 17):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 18):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 19):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 20):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 21):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 22):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 23):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 24):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 25):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 26):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 27):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(28n + 28):before {
+  counter-increment: counter;
+  content: "•" counter(counter) ".";
+}
+
+.arabic-list li:nth-child(1):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(2):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(3):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(4):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(5):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(6):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(7):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(8):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(9):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(10):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(11):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(12):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(13):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(14):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(15):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(16):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(17):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(18):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(19):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(20):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(21):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(22):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(23):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(24):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(25):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(26):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(27):before {
+  content: "•";
+}
+
+.arabic-list li:nth-child(28):before {
+  content: "•";
 }
 
 .mySlides {
