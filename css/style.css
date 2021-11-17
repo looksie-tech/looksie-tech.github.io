@@ -606,6 +606,128 @@ p {
 .navbar-brand img {
   height: 99px;
 }
+.purple-bg {
+  background-color: #451a88;
+}
+.norel {
+  position: unset;
+}
+.pimg {
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  left: -66px;
+}
+.overimg:before {
+  content: "";
+
+  background-image: url("../img/phonepair.png");
+  top: 58px;
+  left: 33%;
+  right: 0%;
+  position: absolute;
+  width: 967px;
+  height: 1027px;
+  background-size: 100% 100%;
+}
+.sec {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.smt {
+  margin-top: 56px;
+}
+.shoppergetapp {
+  background-image: url(../img/shopper-app.png);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 80px;
+  position: relative;
+  padding-bottom: 80px;
+}
+.shoppergetapp:before {
+  content: " ";
+  background-image: url(../img/shopper-left-corner.png);
+  position: absolute;
+  left: 0px;
+  top: 0;
+  height: 90px;
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+}
+@media only screen and (max-width: 1472px) {
+  .overimg:before {
+    width: 903px;
+    height: 968px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .overimg:before {
+    width: 833px;
+    height: 909px;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .overimg:before {
+    width: 757px;
+    height: 785px;
+  }
+}
+@media only screen and (max-width: 1132px) {
+  .overimg:before {
+    width: 705px;
+    height: 744px;
+  }
+}
+.bighide {
+  display: none;
+}
+@media only screen and (max-width: 1116px) {
+  .db {
+    display: block;
+  }
+  .tleft,
+  .tright {
+    min-width: 100%;
+  }
+  .norel {
+    position: relative;
+  }
+  .overimg:before {
+    display: none;
+  }
+  .bighide {
+    display: block;
+    position: absolute;
+    top: 0;
+  }
+}
+@media only screen and (min-width: 1672px) {
+  .overimg:before {
+    width: 1062px;
+    height: 1130px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .overimg:before {
+    width: 1127px;
+    height: 1173px;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .overimg:before {
+    width: 1176px;
+    height: 1229px;
+  }
+}
+@media only screen and (min-width: 2036px) {
+  .overimg:before {
+    width: 1341px;
+    height: 1320px;
+  }
+}
+
 @media only screen and (max-width: 1326px) {
   .black-bold {
     font-size: 24px;

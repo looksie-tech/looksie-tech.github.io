@@ -15,7 +15,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " actives";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 5000); // Change image every 2 seconds (was at 3000, we changed it)
 }
 
 
@@ -37,12 +37,8 @@ function showSlides2() {
   }
   slides[slideIndex2-1].style.display = "block";  
   dots[slideIndex2-1].className += " actives";
-  setTimeout(showSlides2, 3000); // Change image every 2 seconds
+  setTimeout(showSlides2, 5000); // Change image every 2 seconds
 }
-
-
-
-
 
 function openmenu(){
 	$('.navbar-collapse').toggle();
